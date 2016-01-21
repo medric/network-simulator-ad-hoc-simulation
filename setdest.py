@@ -27,7 +27,6 @@ parser.add_argument('-d', metavar='duration', type=float)
 def main():
     args = parser.parse_args()
     
-    print args
     nodes = args.n
     area = {'width': args.a[0], 'height': args.a[1]}
     velocity = args.v
